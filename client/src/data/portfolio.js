@@ -105,5 +105,5 @@ export const portfolio = {
       repo: "https://github.com/nehal09-alt/Numpy_lectures-",
     },
   ],
-  footerNote: "Frontend-only portfolio rebuilt to be cleaner, faster, and easier to view on any screen.",
+  footerNote: "Made BY : Nehal.",
 };
