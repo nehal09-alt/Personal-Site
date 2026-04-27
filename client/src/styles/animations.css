@@ -1,0 +1,89 @@
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-shell,
+.section-heading,
+.card {
+  animation: fadeUp 0.7s ease both;
+}
+
+@keyframes gridPulse {
+  0%,
+  100% {
+    opacity: 0.12;
+  }
+
+  50% {
+    opacity: 0.22;
+  }
+}
+
+@keyframes speedFlash {
+  0% {
+    filter: blur(0) brightness(1) saturate(1);
+  }
+
+  25% {
+    filter: blur(10px) brightness(2.1) saturate(0.5);
+  }
+
+  100% {
+    filter: blur(0) brightness(1) saturate(1);
+  }
+}
+
+@keyframes streakMove {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  10%,
+  90% {
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(200%);
+    opacity: 0;
+  }
+}
+
+.speed-flash {
+  animation: speedFlash 1.5s ease;
+}
+
+.streak {
+  animation: streakMove 0.8s linear infinite;
+}
+
+@keyframes timerFill {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.hero-content {
+  animation: fadeUp 0.85s ease both;
+}
+
+.hero-grid-lines {
+  animation: gridPulse 5s ease-in-out infinite;
+}
+
+.hero-timer-bar {
+  animation: timerFill 2.2s linear both;
+}
