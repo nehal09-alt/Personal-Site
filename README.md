@@ -1,7 +1,7 @@
 # Nehal Portfolio (F1 Futurism Edition)
 
-Link of Site Deploy Using Vercel.com - https://personal-site-ochre-five-92.vercel.app/
-
+Link of Site -- https://personal-site-ochre-five-92.vercel.app/
+Deploy using vercel ..
 
 Frontend-only portfolio for **Md Nehal Khurshid** built with React, Vite, GSAP, and Three.js.
 
